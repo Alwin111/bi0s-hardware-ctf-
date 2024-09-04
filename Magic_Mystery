@@ -1,0 +1,9 @@
+Magic_Mystery 
+bi0s hardware -ctf
+
+So in this question a chall.png file was given. which when i opened it. it say could not load the image
+so after searching for a lot of time i got nothing.then someone helped me he told me about a site hexadump
+its some png file something something it has 0's and stuff, the i searched ofr png magic number on google
+and i typed it on the site and altered with the png that was given then i got the flag
+
+
