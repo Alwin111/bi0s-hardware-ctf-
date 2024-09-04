@@ -1,0 +1,26 @@
+tr4ack_it-reversing-
+bi0s hardware -ctf
+
+The task was to find out the secrect message hidden on the file firmware.bin
+which is a binary file it cannot be opened with any app
+so i used terminal in ubuntu 
+then i use cd which is used to change directory my file was saved in 
+downloads so i used 
+cd downloads
+then ls command to show the list of files in there
+then file command to present the file > file firmware.bin
+the i searched all the words in the text and i found the 
+word Squashfs filesystem which is a compressed read only file system for linux
+so i tried to reverse it so started searching how to extract squash file system
+and found the command unsquash filename which was > unsquashfs firmware.bin
+which showed a lot of files and there was a word call unsquashfs. then as per description 
+there were some hints to reverse the word wired which is deriw then i used grep command 
+to search for matching text in the given file > grep "deriw" unsquashfs
+which show all the prime ministers and president of different country
+then i saw the hint to sort the file in ascending order as i dont the command on how to sort 
+the file respect to the date and month i did manually in linux notpad and i got clue from a 
+senior he said to check for the difference then i found when we take the numbers difference 
+we will get some thing like 85 97 which all we can convert into ascii values the as i cracked the code
+the flag i got is = wired{u_are_on_the right_trac} 
+
+x--------------------------------x
