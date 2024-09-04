@@ -1,0 +1,8 @@
+# L05t-With1n_R0bots-(EMBEDDED)
+bi0s hardware -ctf
+
+The task was to connect to the internet named L05t-With1n_R0bots- 
+and find the secrect message hidden in there so as i did with https_request
+i copyied the dns address and paste it on the web page and it took me a site called wired
+then i typed robots.txt with the dns address and i have gone to another page. I think it is the 
+html code and I used a command crtl+f and typed wired cit showed the found the the flag
