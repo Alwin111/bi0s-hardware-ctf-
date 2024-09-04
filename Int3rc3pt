@@ -1,0 +1,13 @@
+Int3rc3pt
+bi0s hardware -ctf
+
+so the task was to find the info in the secret.zip file. 
+so i opened it on the wire shark and did some googling on 
+how to find hidden messages using wireshark and i tried all
+the thing that was showed in google and found one
+i gone to statistics > conversions then i selected tcp files
+i clicked on it and then i clicked on follow stream in that i found
+some thing thats unique FLAG : d2lyZWR7eTB1X2YwdW5kX20zfQ.first i thought 
+it was the flag but i wasn't then i thought of converting it then i 
+came to know a site called base64 i converted it there and i got the flag
+wired{y0u_f0und_m3}
