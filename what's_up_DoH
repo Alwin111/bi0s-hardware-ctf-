@@ -1,0 +1,10 @@
+what's_up_DoH 
+bi0s hardware -ctf
+
+So the file was pcap file and nothing else was there expect an hint which
+cost me -3 points but it was worth it the hint given was idk 567 seems like it has to do something with it
+so i searched for idk 567 and it was something releated to canva site then i used crtl+f
+and i got idk 567.my.canva.site: type a, class in something like this
+i copy pasted it in web and it took me to a page where a photo was and when i clicked 
+the tab the flag was there
+flag: wired{sponge_squarepants}
