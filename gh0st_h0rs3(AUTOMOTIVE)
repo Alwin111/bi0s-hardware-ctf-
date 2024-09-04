@@ -1,0 +1,18 @@
+# gh0st_h0rs3(AUTOMOTIVE)
+bi0s hardware -ctf
+
+I This challange a ghost.log was given when i opened it 
+it showed so many logs so i searched what Vcan0 is on chatgpt
+so what Vcan0 is -The virtual CAN interfaces allow the transmission 
+and reception of CAN frames without real CAN controller hardware.
+so it not a cars but its rpm id so i searched for  Ford Mustang S550
+rpm value and i got that in github what  Ford Mustang S550 rpm values is
+which is 200 so i used terminal to open the file 
+>cd Downloads
+>ls
+>file ghost.log
+so to find a specific log i used grep function
+then i found all the logs that starts with 200
+which was all in hexadecimal i converted it into ascii values
+so total there we 9 logs and the first 4 logs contained the answer
+>the flag is=wired{3pst3in_d1dnt_0ff_h1ms3lf}
