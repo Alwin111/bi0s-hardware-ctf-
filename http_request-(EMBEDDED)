@@ -1,0 +1,8 @@
+# http_request-(EMBEDDED)
+bi0s hardware -ctf
+
+The task was to find the command to sent message to an ip address
+so i used chatgpt to know how to sent a command to sent a messsage to an ip address
+so it showed we have to type the dns address in chrome web page and put a command next 
+to it so i tried so many words and finally i got the answer as dns? command=flag
+then it showed the flag 
